@@ -21,7 +21,7 @@ class CategoryListView(ListView):
 
 class CategoryCreateView(CreateView):
     model = models.Category
-    template_name = 'Category_create.html'
+    template_name = 'category_create.html'
     form_class = forms.CategoryForm
     success_url = reverse_lazy('category_list')
 
