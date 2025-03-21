@@ -46,6 +46,10 @@ INSTALLED_APPS = [
     'suppliers',
 ]
 
+LOGIN_URL = 'login'
+
+LOGIN_REDIRECT_URL = '/'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -112,7 +116,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'pt-br'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Manaus'
 
 USE_I18N = True
 
