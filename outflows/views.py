@@ -29,7 +29,6 @@ class OutflowListView(LoginRequiredMixin, PermissionRequiredMixin, ListView):
         return context
 
 
-
 class OutflowCreateView(LoginRequiredMixin, PermissionRequiredMixin, CreateView):
     model = models.Outflow
     template_name = 'outflow_create.html'

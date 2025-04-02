@@ -55,6 +55,7 @@ class BrandCreateListAPIView(generics.ListCreateAPIView):
     queryset = models.Brand.objects.all()
     serializer_class = serializers.BrandSerializer
 
+
 class BrandRetrieveUpdateDestroyAPIView(generics.RetrieveUpdateDestroyAPIView):
     queryset = models.Brand.objects.all()
     serializer_class = serializers.BrandSerializer

@@ -4,7 +4,7 @@ from . import models
 
 
 class OutflowForm(forms.ModelForm):
-    
+
     class Meta:
         model = models.Outflow
         fields = ['product', 'quantity', 'description']

@@ -4,7 +4,7 @@ from . import models
 
 class ProductAdmin(admin.ModelAdmin):
     list_display = ('title', 'serie_number',)
-    search_fields = ('title','serie_number',)
+    search_fields = ('title', 'serie_number',)
 
 
 admin.site.register(models.Product, ProductAdmin)
